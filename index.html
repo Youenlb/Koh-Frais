@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Koh Frais - Vente de glaces et coulis</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Koh frais, entreprise de vente de glace et coulis. Koh Frais propose des gammes pour Particuliers et Professionnels">
+    <meta name="language" content="fr">
+    <meta name="author" content="Etudiants IUT Lannion">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/ordinateur.css">
+    <link rel="stylesheet" href="css/tablette.css">
+    <link rel="stylesheet" href="css/smartphone.css">
+    <link rel="stylesheet" href="font/font.css">
+    <script src="js/bootstrap.min.js" defer></script>
+</head>
+
+<body>
+    <!-- Menu -->
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="./index.html" class="p-1"><img src="img/logo/logo.svg" alt="Logo du site"></a>
+                    <a class="navbar-brand p-1" href="./index.html">Koh Frais</a>
+                </div>
+                <button class="navbar-toggler float-right btn-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end text-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-decoration-none" href="./index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-decoration-none" href="./particulier.html">Particulier</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-decoration-none" href="./professionnel.html">Professionnel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-decoration-none" href="./entreprise.html">L'entreprise</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <!-- Carousel -->
+        <section>
+            <div class="container-fluid p-0">
+                <div class="m-0 shadow-lg">
+                    <div id="carouselPresentation" class="carousel slide m-auto w-100" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+
+                            <div class="bg-carousel-image-16-9 carousel-item active"
+                                style="background-image: url(img/illustration/bac-glace-1.jpg);">
+                                <div class="carousel-image-16-9">
+                                    <img src="img/illustration/bac-glace-1.jpg" class="d-block mx-auto"
+                                        alt="Image de bac à glace">
+                                </div>
+                            </div>
+
+                            <div class="bg-carousel-image-16-9 carousel-item"
+                                style="background-image: url(img/illustration/framboises.jpg);">
+                                <div class="carousel-image-16-9">
+                                    <img src="img/illustration/framboises.jpg"
+                                        class="d-block mx-auto w-30 carousel-image-16-9" alt="Image de framboises">
+                                </div>
+                            </div>
+
+                            <div class="bg-carousel-image-16-9 carousel-item"
+                                style="background-image: url(img/illustration/bac-glace-2.jpg);">
+                                <div class="carousel-image-16-9">
+                                    <img src="img/illustration/bac-glace-2.jpg"
+                                        class="d-block mx-auto w-30 carousel-image-16-9" alt="Image de bac à glace">
+                                </div>
+                            </div>
+
+                            <div class="bg-carousel-image-16-9 carousel-item"
+                                style="background-image: url(img/illustration/myrtilles.jpg);">
+                                <div class="carousel-image-16-9">
+                                    <img src="img/illustration/myrtilles.jpg"
+                                        class="d-block mx-auto w-30 carousel-image-16-9" alt="Image de myrtilles">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Section particulier / professionnel  -->
+        <section class="container">
+            <h1 class="text-center p-5">Découvrez nos coulis et glaces</h1>
+
+            <div class="d-flex justify-content-center row">
+                <a href="particulier.html" class="col-lg-5 col-md-6 col-sm p-4 center-text-on-image-container center-text-on-image-container-animation">
+                    <figure>
+                        <img class="w-100 rounded shadow-lg" src="img/illustration/vacherin-1.jpg"
+                            alt="Illustration de glace pour particulier">
+                    </figure>
+                    <figcaption class="center-text-on-image-element center-text-on-image-text-small">Offres pour
+                        Particuliers</figcaption>
+                </a>
+                <a href="professionnel.html" class="col-lg-5 col-md-6 col-sm p-4 center-text-on-image-container center-text-on-image-container-animation">
+                    <figure>
+                        <img class="w-100 rounded shadow-lg" src="img/illustration/bac-glace-2.jpg"
+                            alt="Illustration de glace pour professionnel">
+                    </figure>
+                    <figcaption class="center-text-on-image-element center-text-on-image-text-small">Offres pour
+                        Professionnel</figcaption>
+                </a>
+            </div>
+        </section>
+
+
+
+        <!-- Formulaire de contact -->
+        <section class="container">
+            <form class="col-lg-5 col-md-8 col-sm mx-auto my-5" method="post">
+                <h1 class="text-center p-5">Nous contacter</h1>
+
+                <!-- Nom et prénom -->
+                <div class="row mb-4">
+                    <div class="col">
+                        <div class="form-outline">
+                            <input type="text" class="form-control" placeholder="Nom" required />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-outline">
+                            <input type="text" class="form-control" placeholder="Prénom" required />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Email -->
+                <div class="form-outline mb-4">
+                    <input type="email" id="form3Example3" class="form-control" placeholder="Email" required />
+                </div>
+
+                <!-- Message -->
+                <div class="form-outline mb-4">
+                    <textarea class="rounded p-3" name="message" style="width: 100%;" rows="7" placeholder="Message"
+                        required></textarea>
+                </div>
+
+
+                <!-- Bouton d'envoi -->
+                <button type="submit" name="Envoyer"
+                    class="btn btn-secondary btn-block mb-4 d-block mx-auto">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    
+
+    <!-- Footer  -->
+    <footer class="col-12 text-center">
+        <p>Koh Frais © 2022 - <a class="text-decoration-none" href="mentions-legales.html">Mentions Légales</a></p>
+    </footer>
+</body>
+
+</html>
