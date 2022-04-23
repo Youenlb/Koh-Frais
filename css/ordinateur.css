@@ -1,0 +1,166 @@
+/*  */
+/* VARIABLES CSS */
+/*  */
+
+:root {
+    --dark-blue: #2c3e50;
+    --grey: #95a5a6;
+    --whitesmoke: #f5f5f5;
+}
+
+/*  */
+/* Définition des éléments communs */
+/*  */
+
+body {
+    background-color: var(--dark-blue);
+    color: var(--whitesmoke);
+    font-family: Nunito;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--whitesmoke) !important;
+    font-family: BakbakOne;
+}
+
+a, b, span, i {
+    color: var(--whitesmoke) !important;
+    font-family: Nunito;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+p, a {
+    font-size: 1.5em;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer p>a {
+    font-size: 1em;
+}
+
+.div-background-color {
+    background-color: var(--grey);
+}
+
+.div-background-color-white, .div-background-color-white h1, .div-background-color-white a {
+    background-color: var(--whitesmoke);
+    color: var(--dark-blue) !important;
+}
+
+figure {
+    margin: 0;
+}
+
+/*  */
+/* Modification du menu */
+/*  */
+
+.navbar-header img {
+    width: 100px;
+    filter: invert(100%) sepia(25%) saturate(335%) hue-rotate(220deg) brightness(116%) contrast(92%);
+}
+
+.nav-link:hover {
+    color: var(--grey) !important;
+    transition: 0.5s;
+}
+
+/*  */
+/* Modification du carousel */
+/*  */
+.bg-carousel-image-16-9 {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-image-16-9 {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    width: 100%;
+}
+
+.carousel-image-16-9 img {
+    width: 30%;
+    transform: scale(2);
+}
+
+/*  */
+/* Centrage d'un texte sur une image */
+/*  */
+
+/* Positionne les éléments */
+.center-text-on-image-container {
+    position: relative;
+    text-align: center;
+}
+
+/* Ajoute une opacité pour améliorer la lisibilité */
+.center-text-on-image-container img {
+    opacity: 60%;
+    transition: transform 0.5s;
+}
+
+/* A utiliser pour avoir un effet de zoom arrière */
+.center-text-on-image-container-animation img:hover {
+    opacity: 80%;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+/* Centrage du texte */
+.center-text-on-image-element {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Personnalisation du texte  */
+.center-text-on-image-text-small {
+    font-size: 2em;
+    font-family: BakbakOne;
+    color: whitesmoke;
+    transition: transform 0.5s;
+}
+
+/* Personnalisation du texte  */
+.center-text-on-image-text-big {
+    font-size: 5em;
+    font-family: BakbakOne;
+    color: whitesmoke;
+    transition: transform 0.5s;
+}
+
+/*  */
+/* Coloration des textes */
+/*  */
+.black-color p, .black-color h2, .black-color h3, .black-color h4 {
+    color: var(--dark-blue) !important;
+}
+
+/*  */
+/* Gestion des images dans les card */
+/*  */
+
+.img-size-fixe {
+    object-fit: cover;
+    height: 230px;
+}
